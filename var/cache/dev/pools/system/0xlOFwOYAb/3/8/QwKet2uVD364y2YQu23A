@@ -1,0 +1,3 @@
+<?php //15e9253a2ccd9b01962d2c432c6ac892
+
+return [PHP_INT_MAX, 'vendor/stimulus-timeago/stimulus-timeago.index.js'];

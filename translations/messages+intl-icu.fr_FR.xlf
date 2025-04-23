@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="fr-FR" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="OmOPAxB" resname="app.page.error.402.title">
+        <source>app.page.error.402.title</source>
+        <target>__app.page.error.402.title</target>
+      </trans-unit>
+      <trans-unit id="19JvH61" resname="app.page.error.402.upper_text">
+        <source>app.page.error.402.upper_text</source>
+        <target>__app.page.error.402.upper_text</target>
+      </trans-unit>
+      <trans-unit id="isCpiPm" resname="app.page.error.402.message">
+        <source>app.page.error.402.message</source>
+        <target>__app.page.error.402.message</target>
+      </trans-unit>
+      <trans-unit id="opnFwF_" resname="app.page.error.402.description">
+        <source>app.page.error.402.description</source>
+        <target>__app.page.error.402.description</target>
+      </trans-unit>
+      <trans-unit id="0QWbm8E" resname="app.page.error.title">
+        <source>app.page.error.title</source>
+        <target>__app.page.error.title</target>
+      </trans-unit>
+      <trans-unit id="JMYdRLA" resname="app.page.error.upper_title">
+        <source>app.page.error.upper_title</source>
+        <target>__app.page.error.upper_title</target>
+      </trans-unit>
+      <trans-unit id="2hTnLMb" resname="app.page.error.message">
+        <source>app.page.error.message</source>
+        <target>__app.page.error.message</target>
+      </trans-unit>
+      <trans-unit id=".zQ7.c2" resname="app.page.error.description">
+        <source>app.page.error.description</source>
+        <target>__app.page.error.description</target>
+      </trans-unit>
+      <trans-unit id="RbUsesN" resname="app.page.error.504.title">
+        <source>app.page.error.504.title</source>
+        <target>__app.page.error.504.title</target>
+      </trans-unit>
+      <trans-unit id="IRAW.wt" resname="app.page.error.504.upper_text">
+        <source>app.page.error.504.upper_text</source>
+        <target>__app.page.error.504.upper_text</target>
+      </trans-unit>
+      <trans-unit id="NWkvjOG" resname="app.page.error.504.message">
+        <source>app.page.error.504.message</source>
+        <target>__app.page.error.504.message</target>
+      </trans-unit>
+      <trans-unit id="zC9yeTE" resname="app.page.error.504.description">
+        <source>app.page.error.504.description</source>
+        <target>__app.page.error.504.description</target>
+      </trans-unit>
+      <trans-unit id="0.DJd3P" resname="app.page.error.429.title">
+        <source>app.page.error.429.title</source>
+        <target>__app.page.error.429.title</target>
+      </trans-unit>
+      <trans-unit id="iwUo2BI" resname="app.page.error.429.upper_text">
+        <source>app.page.error.429.upper_text</source>
+        <target>__app.page.error.429.upper_text</target>
+      </trans-unit>
+      <trans-unit id="BAcOw2i" resname="app.page.error.429.message">
+        <source>app.page.error.429.message</source>
+        <target>__app.page.error.429.message</target>
+      </trans-unit>
+      <trans-unit id="OCX.5QI" resname="app.page.error.429.description">
+        <source>app.page.error.429.description</source>
+        <target>__app.page.error.429.description</target>
+      </trans-unit>
+      <trans-unit id="x_5JfHD" resname="app.page.error.404.title">
+        <source>app.page.error.404.title</source>
+        <target>__app.page.error.404.title</target>
+      </trans-unit>
+      <trans-unit id="j9JD43R" resname="app.page.error.404.upper_text">
+        <source>app.page.error.404.upper_text</source>
+        <target>__app.page.error.404.upper_text</target>
+      </trans-unit>
+      <trans-unit id="ga1cVCV" resname="app.page.error.404.message">
+        <source>app.page.error.404.message</source>
+        <target>__app.page.error.404.message</target>
+      </trans-unit>
+      <trans-unit id="TAQ8eSV" resname="app.page.error.404.description">
+        <source>app.page.error.404.description</source>
+        <target>__app.page.error.404.description</target>
+      </trans-unit>
+      <trans-unit id="kv3.FFL" resname="app.page.error.503.title">
+        <source>app.page.error.503.title</source>
+        <target>__app.page.error.503.title</target>
+      </trans-unit>
+      <trans-unit id="jwhnfs4" resname="app.page.error.503.upper_text">
+        <source>app.page.error.503.upper_text</source>
+        <target>__app.page.error.503.upper_text</target>
+      </trans-unit>
+      <trans-unit id="NpsmkpX" resname="app.page.error.503.message">
+        <source>app.page.error.503.message</source>
+        <target>__app.page.error.503.message</target>
+      </trans-unit>
+      <trans-unit id="39fGFBG" resname="app.page.error.503.description">
+        <source>app.page.error.503.description</source>
+        <target>__app.page.error.503.description</target>
+      </trans-unit>
+      <trans-unit id="jrZrXZk" resname="app.page.error.500.title">
+        <source>app.page.error.500.title</source>
+        <target>__app.page.error.500.title</target>
+      </trans-unit>
+      <trans-unit id="w2VvWyV" resname="app.page.error.500.upper_text">
+        <source>app.page.error.500.upper_text</source>
+        <target>__app.page.error.500.upper_text</target>
+      </trans-unit>
+      <trans-unit id="lWvTjzT" resname="app.page.error.500.message">
+        <source>app.page.error.500.message</source>
+        <target>__app.page.error.500.message</target>
+      </trans-unit>
+      <trans-unit id="Fn_rg4C" resname="app.page.error.500.description">
+        <source>app.page.error.500.description</source>
+        <target>__app.page.error.500.description</target>
+      </trans-unit>
+      <trans-unit id="Jrcjx.m" resname="app.page.error.links.text">
+        <source>app.page.error.links.text</source>
+        <target>__app.page.error.links.text</target>
+      </trans-unit>
+      <trans-unit id="MTaV.OF" resname="app.page.error.link.back_to_homepage.text">
+        <source>app.page.error.link.back_to_homepage.text</source>
+        <target>__app.page.error.link.back_to_homepage.text</target>
+      </trans-unit>
+      <trans-unit id="UgqbN01" resname="app.page.error.401.title">
+        <source>app.page.error.401.title</source>
+        <target>__app.page.error.401.title</target>
+      </trans-unit>
+      <trans-unit id="camIPQ4" resname="app.page.error.401.upper_text">
+        <source>app.page.error.401.upper_text</source>
+        <target>__app.page.error.401.upper_text</target>
+      </trans-unit>
+      <trans-unit id="eE4D4O3" resname="app.page.error.401.message">
+        <source>app.page.error.401.message</source>
+        <target>__app.page.error.401.message</target>
+      </trans-unit>
+      <trans-unit id="AzIDhuZ" resname="app.page.error.401.description">
+        <source>app.page.error.401.description</source>
+        <target>__app.page.error.401.description</target>
+      </trans-unit>
+      <trans-unit id="VyDSzk2" resname="app.page.error.403.title">
+        <source>app.page.error.403.title</source>
+        <target>__app.page.error.403.title</target>
+      </trans-unit>
+      <trans-unit id="PJcDtgl" resname="app.page.error.403.upper_text">
+        <source>app.page.error.403.upper_text</source>
+        <target>__app.page.error.403.upper_text</target>
+      </trans-unit>
+      <trans-unit id="sDthYGL" resname="app.page.error.403.message">
+        <source>app.page.error.403.message</source>
+        <target>__app.page.error.403.message</target>
+      </trans-unit>
+      <trans-unit id="RtZWcw." resname="app.page.error.403.description">
+        <source>app.page.error.403.description</source>
+        <target>__app.page.error.403.description</target>
+      </trans-unit>
+      <trans-unit id="fZKomGr" resname="app.page.error.400.title">
+        <source>app.page.error.400.title</source>
+        <target>__app.page.error.400.title</target>
+      </trans-unit>
+      <trans-unit id="CHkIM8K" resname="app.page.error.400.upper_text">
+        <source>app.page.error.400.upper_text</source>
+        <target>__app.page.error.400.upper_text</target>
+      </trans-unit>
+      <trans-unit id="Xx2qMZj" resname="app.page.error.400.message">
+        <source>app.page.error.400.message</source>
+        <target>__app.page.error.400.message</target>
+      </trans-unit>
+      <trans-unit id="WgjERZL" resname="app.page.error.400.description">
+        <source>app.page.error.400.description</source>
+        <target>__app.page.error.400.description</target>
+      </trans-unit>
+      <trans-unit id="CKa3HAj" resname="homepage.demo">
+        <source>homepage.demo</source>
+        <target>Fonctionnalités supportées</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

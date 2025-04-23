@@ -1,0 +1,35 @@
+{
+    "name": "pwa-demo",
+    "description": "A Symfony based project to demonstrate the use of PHPWA",
+    "keywords": [
+        "php",
+        "symfony"
+    ],
+    "repository": "https://github.com/spomky-labs/phpwa-demo",
+    "scripts": {
+        "dokku": {
+            "predeploy": "bin/console tailwind:build && bin/console importmap:install && bin/console asset-map:compile && bin/console  secrets:decrypt-to-local --force",
+            "postdeploy": "bin/console about"
+        }
+    },
+    "env": {
+        "SECRET_TOKEN": {
+            "description": "A secret key for verifying the integrity of signed cookies.",
+            "value": "secret"
+        },
+        "WEB_CONCURRENCY": {
+            "description": "The number of processes to run.",
+            "generator": "echo 5"
+        }
+    },
+    "image": "gliderlabs/herokuish",
+    "addons": [
+        "dokku-postgres",
+        "dokku-redis"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-php.git"
+        }
+    ]
+}

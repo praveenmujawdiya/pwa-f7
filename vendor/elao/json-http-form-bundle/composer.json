@@ -1,0 +1,45 @@
+{
+    "name": "elao/json-http-form-bundle",
+    "type": "symfony-bundle",
+    "description": "Adds support of JSON requests for Forms",
+    "keywords": ["json", "api", "rest", "form"],
+    "homepage": "https://github.com/Elao/ElaoJsonHttpFormBundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Jarrand",
+            "email": "thomas.jarrand@gmail.com",
+            "homepage": "https://thomas.jarrand.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "symfony/framework-bundle": "~5.4|~6.0|~7.0",
+        "symfony/form": "~5.4|~6.0|~7.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.3",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan-phpunit": "^1.3",
+        "phpstan/phpstan-symfony": "^1.3",
+        "ekino/phpstan-banned-code": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elao\\Bundle\\JsonHttpFormBundle\\": "."
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}

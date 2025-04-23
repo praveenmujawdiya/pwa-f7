@@ -1,0 +1,7 @@
+services:
+    Inspector\Symfony\Bundle\Command\InspectorTestCommand:
+        arguments:
+          [ '@Inspector\Inspector', '@logger', '@Inspector\Configuration' ]
+        tags:
+            - { name: 'console.command', command: 'inspector:test' }
+

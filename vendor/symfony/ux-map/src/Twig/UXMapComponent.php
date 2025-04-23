@@ -1,0 +1,44 @@
+<?php
+
+/*
+ * This file is part of the Symfony package.
+ *
+ * (c) Fabien Potencier <fabien@symfony.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Symfony\UX\Map\Twig;
+
+use Symfony\UX\Map\Marker;
+use Symfony\UX\Map\Point;
+use Symfony\UX\Map\Polygon;
+use Symfony\UX\Map\Polyline;
+
+/**
+ * @author Simon André <smn.andre@gmail.com>
+ *
+ * @internal
+ */
+final class UXMapComponent
+{
+    public ?float $zoom;
+
+    public ?Point $center;
+
+    /**
+     * @var Marker[]
+     */
+    public array $markers;
+
+    /**
+     * @var Polygon[]
+     */
+    public array $polygons;
+
+    /**
+     * @var Polyline[]
+     */
+    public array $polylines;
+}

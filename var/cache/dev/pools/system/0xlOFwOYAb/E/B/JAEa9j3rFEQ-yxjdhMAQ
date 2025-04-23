@@ -1,0 +1,3 @@
+<?php //8aa5e3d04e2f895c1e888a7c14e8f256
+
+return [PHP_INT_MAX, 'vendor/ssr-window/ssr-window.index.js'];

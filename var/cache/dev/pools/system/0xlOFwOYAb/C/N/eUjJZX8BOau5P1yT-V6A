@@ -1,0 +1,3 @@
+<?php //cf950170b097149ca237e4177a783aa9
+
+return [PHP_INT_MAX, '@spomky-labs/pwa-bundle/receiver_controller.js'];

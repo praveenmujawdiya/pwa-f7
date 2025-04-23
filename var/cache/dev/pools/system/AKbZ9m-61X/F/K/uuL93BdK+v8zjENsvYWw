@@ -1,0 +1,19 @@
+<?php //material-symbols--tune
+
+return [PHP_INT_MAX, static fn () => \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\UX\\Icons\\Icon'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\UX\\Icons\\Icon')),
+    ],
+    null,
+    [],
+    $o[0],
+    [
+        [
+            '<path fill="currentColor" d="M11 21v-6h2v2h8v2h-8v2zm-8-2v-2h6v2zm4-4v-2H3v-2h4V9h2v6zm4-2v-2h10v2zm4-4V3h2v2h4v2h-4v2zM3 7V5h10v2z"/>',
+            [
+                'xmlns' => 'https://www.w3.org/2000/svg',
+                'viewBox' => '0 0 24 24',
+            ],
+        ],
+    ]
+)];

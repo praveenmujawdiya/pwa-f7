@@ -1,0 +1,3 @@
+<?php //605df9141a289d4bf260d2b6af84929a
+
+return [PHP_INT_MAX, 'controllers/store-bg-fetch_controller.js'];

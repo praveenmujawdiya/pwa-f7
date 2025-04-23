@@ -1,0 +1,19 @@
+<div{{ attributes }} class="p-6">
+    <div
+        data-controller="pwa--device-orientation orientation"
+        data-pwa--device-orientation-throttle-value="25"
+    {{ stimulus_action('orientation', 'update', 'pwa--device-orientation:pwa:device:orientation') }}
+    >
+    <dl>
+        <dt id="alpha" class="font-medium text-gray-500 dark:text-gray-400">Alpha</dt>
+        <dd class="text-gray-900 dark:text-white" {{ stimulus_target('orientation', 'alpha') }}>--</dd>
+        <dt id="beta" class="font-medium text-gray-500 dark:text-gray-400">Beta</dt>
+        <dd class="text-gray-900 dark:text-white" {{ stimulus_target('orientation', 'beta') }}>--</dd>
+        <dt id="gamma" class="font-medium text-gray-500 dark:text-gray-400">Gamma</dt>
+        <dd class="text-gray-900 dark:text-white" {{ stimulus_target('orientation', 'gamma') }}>--</dd>
+    </dl>
+    <canvas {{ stimulus_target('orientation', 'canvas') }} id="myCanvas" class="w-full h-96">
+        Your browser does not support the HTML canvas element.
+    </canvas>
+    </div>
+</div>

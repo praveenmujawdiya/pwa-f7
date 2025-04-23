@@ -1,0 +1,14 @@
+inspector:
+    ingestion_key: '%env(INSPECTOR_INGESTION_KEY)%'
+    ignore_routes:
+        - '/_wdt*'
+        - '/_profiler*'
+    ignore_commands:
+        - 'assets:install'
+        - 'cache:clear'
+        - 'schedule:run'
+        - 'messenger*'
+        - 'doctrine*'
+        - 'debug*'
+        - 'make*'
+    ignore_messages:

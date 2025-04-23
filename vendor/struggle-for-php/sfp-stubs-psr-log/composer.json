@@ -1,0 +1,54 @@
+{
+    "name": "struggle-for-php/sfp-stubs-psr-log",
+    "description": "Stubs to let Static Analysis understand psr/log (PSR-3)",
+    "keywords": ["stub", "stubs", "static analysis", "static-analysis", "psr3", "log", "exception"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sasezaki",
+            "email": "sasezaki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "require-dev": {
+        "ext-simplexml": "*",
+        "psr/log": "^3",
+        "rector/rector": "0.15.21",
+        "squizlabs/php_codesniffer": "^3.7",
+        "symfony/console": "^5",
+        "vimeo/psalm": "^5.8",
+        "weirdan/codeception-psalm-module": "^0.14.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SfpDev\\Stubs\\Psr\\Log\\": "src-dev",
+            "SfpTest\\Stubs\\Psr\\Log\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "platform": {
+            "php": "8.0.99"
+        }
+    },
+    "conflict": {
+        "psr/log": "^1 || ^2 || >=4"
+    },
+    "scripts" : {
+        "check": [
+            "@cs-check",
+            "@test",
+            "@analyze"
+        ],
+        "analyze": "psalm",
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "codecept run -v"
+    }
+}

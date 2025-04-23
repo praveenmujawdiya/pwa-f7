@@ -1,0 +1,1 @@
+{"resources":[{"@type":"Symfony\\Component\\Config\\Resource\\FileResource","resource":"/Users/praveenmujawdiya/Documents/survos/pwa-f7/assets/vendor/three.js/three.js.index.js"},{"@type":"Symfony\\Component\\Config\\Resource\\FileExistenceResource","exists":true,"resource":"/Users/praveenmujawdiya/Documents/survos/pwa-f7/assets/vendor/three/three.index.js"}]}

@@ -1,0 +1,3 @@
+<?php //029cc2e4002b5b6d685026ce6ee158bb
+
+return [PHP_INT_MAX, 'vendor/path-to-regexp/path-to-regexp.index.js'];

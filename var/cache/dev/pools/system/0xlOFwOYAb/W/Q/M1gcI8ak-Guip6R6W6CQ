@@ -1,0 +1,3 @@
+<?php //439518571fec97823b633b427cafb9e5
+
+return [PHP_INT_MAX, '@spomky-labs/pwa-bundle/speech-synthesis_controller.js'];

@@ -1,0 +1,3 @@
+<?php //2534cc9cd23a0caa44305576094d47c5
+
+return [PHP_INT_MAX, 'controllers/speech-recognition_controller.js'];

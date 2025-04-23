@@ -1,0 +1,100 @@
+{
+    "name": "spomky-labs/pwa-bundle",
+    "description": "Progressive Web App Manifest Generator Bundle for Symfony.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": [
+        "symfony-ux",
+        "PWA",
+        "Bundle",
+        "Symfony"
+    ],
+    "homepage": "https://github.com/spomky-labs",
+    "authors": [
+        {
+            "name": "Florent Morselli",
+            "homepage": "https://github.com/Spomky"
+        },
+        {
+            "name": "All contributors",
+            "homepage": "https://github.com/spomky-labs/pwa-bundle/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SpomkyLabs\\PwaBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SpomkyLabs\\PwaBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "phpdocumentor/reflection-docblock": "^5.3",
+        "psr/log": "^1.0|^2.0|^3.0",
+        "symfony/asset": "^6.4|^7.0",
+        "symfony/asset-mapper": "^6.4|^7.0",
+        "symfony/config": "^6.4|^7.0",
+        "symfony/dependency-injection": "^6.4|^7.0",
+        "symfony/deprecation-contracts": "^3.5",
+        "symfony/http-kernel": "^6.4|^7.0",
+        "symfony/property-access": "^6.4|^7.0",
+        "symfony/property-info": "^6.4|^7.0",
+        "symfony/routing": "^6.4|^7.0",
+        "symfony/serializer": "^6.4|^7.0",
+        "twig/twig": "^3.8"
+    },
+    "require-dev": {
+        "ext-sockets": "*",
+        "dbrekelmans/bdi": "^1.1",
+        "ekino/phpstan-banned-code": "^1.0|^2.0|^3.0",
+        "ergebnis/phpunit-slow-test-detector": "^2.14",
+        "infection/infection": "^0.28|^0.29",
+        "matthiasnoback/symfony-config-test": "^5.1|^6.0",
+        "nelmio/security-bundle": "^3.0",
+        "php-parallel-lint/php-parallel-lint": "^1.4",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpdoc-parser": "^1.28|^2.0",
+        "phpstan/phpstan": "^1.0|^2.0",
+        "phpstan/phpstan-beberlei-assert": "^1.0|^2.0",
+        "phpstan/phpstan-deprecation-rules": "^1.0|^2.0",
+        "phpstan/phpstan-phpunit": "^1.4|^2.0",
+        "phpstan/phpstan-strict-rules": "^1.0|^2.0",
+        "phpstan/phpstan-symfony": "^1.4|^2.0",
+        "phpunit/phpunit": "^11.0|^12.0",
+        "rector/rector": "^1.0|^2.0-rc2",
+        "shipmonk/dead-code-detector": "^0.5.1|^0.6|^0.9|^0.10",
+        "staabm/phpstan-todo-by": "^0.1|^0.2",
+        "struggle-for-php/sfp-phpstan-psr-log": "^0.20|^0.21|^0.22|^0.23",
+        "symfony/filesystem": "^6.4|^7.0",
+        "symfony/framework-bundle": "^6.4|^7.0",
+        "symfony/mime": "^6.4|^7.0",
+        "symfony/monolog-bundle": "^3.10",
+        "symfony/panther": "^2.1",
+        "symfony/translation": "^7.0",
+        "symfony/yaml": "^6.4|^7.0",
+        "symplify/easy-coding-standard": "^12.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "infection/extension-installer": true
+        }
+    },
+    "extra": {
+        "thanks": {
+            "name": "spomky-labs/pwa-bundle",
+            "url": "https://github.com/spomky-labs/pwa-bundle"
+        }
+    },
+    "suggest": {
+        "ext-gd": "Required to generate icons (or Imagick).",
+        "ext-imagick": "Required to generate icons (or GD).",
+        "symfony/mime": "For generating and manipulating icons or screenshots",
+        "symfony/filesystem": "For generating and manipulating icons or screenshots",
+        "symfony/panther": "For generating screenshots directly from your application"
+    }
+}

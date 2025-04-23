@@ -1,0 +1,3 @@
+<?php //749ec2e4fc0b594cf42efb1b266939c0
+
+return [PHP_INT_MAX, 'vendor/@babel/runtime/helpers/esm/assertThisInitialized.js'];

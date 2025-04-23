@@ -1,0 +1,8 @@
+/.github export-ignore
+/tests export-ignore
+/tests-e2e export-ignore
+.editorconfig export-ignore
+.php-cs-fixer.php export-ignore
+phpstan.neon export-ignore
+baseline-7.4.neon export-ignore
+ignore-by-php-version.neon.php export-ignore

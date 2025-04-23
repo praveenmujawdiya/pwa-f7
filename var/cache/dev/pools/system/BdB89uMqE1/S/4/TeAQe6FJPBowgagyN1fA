@@ -1,0 +1,25 @@
+<?php //ux.twig_component.component_properties
+
+return [PHP_INT_MAX, [
+    'App\\Twig\\Component\\Geolocation' => [
+        'properties' => [],
+        'methods' => [],
+    ],
+    'Symfony\\UX\\Icons\\Twig\\UXIconComponent' => [
+        'properties' => [],
+        'methods' => [],
+    ],
+    'Symfony\\UX\\Map\\Twig\\UXMapComponent' => [
+        'properties' => [],
+        'methods' => [],
+    ],
+    'Survos\\FwBundle\\Components\\MenuComponent' => [
+        'properties' => [
+            'type' => [
+                'name' => 'type',
+                'getter' => null,
+            ],
+        ],
+        'methods' => [],
+    ],
+]];

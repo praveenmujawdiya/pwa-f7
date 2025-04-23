@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="fr-FR" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="pQWw280" resname="app.name">
+        <source>app.name</source>
+        <target>Ce que PWA peut faire aujourd’hui</target>
+      </trans-unit>
+      <trans-unit id="vQzUOUz" resname="app.short_name">
+        <source>app.short_name</source>
+        <target>PWA aujourd'hui</target>
+      </trans-unit>
+      <trans-unit id="n7KUaOy" resname="app.description">
+        <source>app.description</source>
+        <target>What PWA Bundle Can Do Today est une vitrine de ce qui est possible avec le bundle Progressive Web App pour Symfony.</target>
+      </trans-unit>
+      <trans-unit id="EsH78Fy" resname="app.start_url">
+        <source>app.start_url</source>
+        <target>/fr_FR/?pwa</target>
+      </trans-unit>
+      <trans-unit id="rylLObw" resname="app.features.geolocation.name">
+        <source>app.features.geolocation.name</source>
+        <target>Géolocalisation</target>
+      </trans-unit>
+      <trans-unit id="_Zbz.aD" resname="app.features.geolocation.short_name">
+        <source>app.features.geolocation.short_name</source>
+        <target>Géolocalisation</target>
+      </trans-unit>
+      <trans-unit id="UB8UQvV" resname="app.features.geolocation.description">
+        <source>app.features.geolocation.description</source>
+        <target>Fonctionnalité de géolocalisation</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

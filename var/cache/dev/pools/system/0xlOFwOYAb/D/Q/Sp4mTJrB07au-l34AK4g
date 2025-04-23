@@ -1,0 +1,3 @@
+<?php //9468e813e0ac91e2cc7f368e3035ce36
+
+return [PHP_INT_MAX, 'vendor/date-fns/date-fns.index.js'];

@@ -1,0 +1,3 @@
+<?php //bf7590ef88201557b9138a76b36ab8a8
+
+return [PHP_INT_MAX, 'images/element-capture.svg'];

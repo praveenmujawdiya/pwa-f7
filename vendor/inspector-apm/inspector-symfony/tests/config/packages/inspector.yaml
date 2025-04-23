@@ -1,0 +1,3 @@
+inspector:
+    ingestion_key: 'thisIsIngestionKey'
+    enabled: true
